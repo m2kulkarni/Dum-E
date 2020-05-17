@@ -1,0 +1,1 @@
+/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_diagnostic_tool/lib/python2.7/dist-packages/interbotix_diagnostic_tool/msg/_MotorTemps.py

@@ -1,0 +1,1 @@
+/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_turret_control/lib/pkgconfig/interbotix_turret_control.pc

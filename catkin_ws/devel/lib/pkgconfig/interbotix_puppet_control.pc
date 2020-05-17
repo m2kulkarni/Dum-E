@@ -1,0 +1,1 @@
+/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_puppet_control/lib/pkgconfig/interbotix_puppet_control.pc

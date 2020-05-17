@@ -1,0 +1,1 @@
+/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_joy_control/share/common-lisp/ros/interbotix_joy_control/msg/interbotix_joy_control-msg.asd

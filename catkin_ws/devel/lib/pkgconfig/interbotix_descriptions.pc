@@ -1,0 +1,1 @@
+/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_descriptions/lib/pkgconfig/interbotix_descriptions.pc

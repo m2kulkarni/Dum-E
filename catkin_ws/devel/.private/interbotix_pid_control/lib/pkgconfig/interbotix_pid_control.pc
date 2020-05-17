@@ -1,0 +1,8 @@
+prefix=/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_pid_control
+
+Name: interbotix_pid_control
+Description: Description of interbotix_pid_control
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: interbotix_sdk roscpp sensor_msgs

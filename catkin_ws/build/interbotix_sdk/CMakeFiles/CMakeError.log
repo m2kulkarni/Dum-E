@@ -1,0 +1,55 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/mohit/Dum-E/catkin_ws/build/interbotix_sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_19870/fast"
+/usr/bin/make -f CMakeFiles/cmTC_19870.dir/build.make CMakeFiles/cmTC_19870.dir/build
+make[1]: Entering directory '/home/mohit/Dum-E/catkin_ws/build/interbotix_sdk/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19870.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_19870.dir/CheckSymbolExists.c.o   -c /home/mohit/Dum-E/catkin_ws/build/interbotix_sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_19870
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_19870.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_19870.dir/CheckSymbolExists.c.o  -o cmTC_19870 
+CMakeFiles/cmTC_19870.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x1b): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_19870.dir/build.make:97: recipe for target 'cmTC_19870' failed
+make[1]: *** [cmTC_19870] Error 1
+make[1]: Leaving directory '/home/mohit/Dum-E/catkin_ws/build/interbotix_sdk/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_19870/fast' failed
+make: *** [cmTC_19870/fast] Error 2
+
+File /home/mohit/Dum-E/catkin_ws/build/interbotix_sdk/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/mohit/Dum-E/catkin_ws/build/interbotix_sdk/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a964a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a964a.dir/build.make CMakeFiles/cmTC_a964a.dir/build
+make[1]: Entering directory '/home/mohit/Dum-E/catkin_ws/build/interbotix_sdk/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a964a.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_a964a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_a964a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a964a.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_a964a.dir/CheckFunctionExists.c.o  -o cmTC_a964a -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+CMakeFiles/cmTC_a964a.dir/build.make:97: recipe for target 'cmTC_a964a' failed
+make[1]: *** [cmTC_a964a] Error 1
+make[1]: Leaving directory '/home/mohit/Dum-E/catkin_ws/build/interbotix_sdk/CMakeFiles/CMakeTmp'
+Makefile:126: recipe for target 'cmTC_a964a/fast' failed
+make: *** [cmTC_a964a/fast] Error 2
+
+
