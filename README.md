@@ -1,8 +1,8 @@
 # Dum-E
 
 ## Task List
-[Project Proposal](https://docs.google.com/presentation/d/1xzHcQP46PsUVgJbghn29bod6HPmoisLt4jmiFbyy7pE/edit#slide=id.p)
-[Progress Sheet](https://docs.google.com/spreadsheets/d/18BrIjAg9EIiv4nUaHau9f3dp61sckq4VOOgyaKCtCx4/edit#gid=0)
+### [Project Proposal](https://docs.google.com/presentation/d/1xzHcQP46PsUVgJbghn29bod6HPmoisLt4jmiFbyy7pE/edit#slide=id.p)
+### [Progress Sheet](https://docs.google.com/spreadsheets/d/18BrIjAg9EIiv4nUaHau9f3dp61sckq4VOOgyaKCtCx4/edit#gid=0)
 
 * [Ros tutorial](http://wiki.ros.org/ROS/Tutorials)
 * [1- Package Installation](http://wiki.ros.org/ROS/Tutorials)
