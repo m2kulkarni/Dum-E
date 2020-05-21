@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mohit/Dum-E/catkin_ws/devel/.private/beginner_tutorials/lib;/home/mohit/Dum-E/catkin_ws/devel/lib;/home/mohit/vslam_ws/src/openvslam/ros/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/mohit/Dum-E/catkin_ws/devel/.private/beginner_tutorials/lib;/home/mohit/Dum-E/catkin_ws/devel/lib;/home/mohit/vslam_ws/devel/lib;/home/mohit/vslam_ws/src/openvslam/ros/devel/lib;/opt/ros/melodic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

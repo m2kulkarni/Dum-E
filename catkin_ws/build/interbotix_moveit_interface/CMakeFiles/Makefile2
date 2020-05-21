@@ -95,9 +95,9 @@ clean: CMakeFiles/interbotix_moveit_interface_genpy.dir/clean
 # Target rules for target CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir
 
 # All Build rule for target.
+CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/all: CMakeFiles/_interbotix_moveit_interface_generate_messages_check_deps_MoveItPlan.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/depend
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohit/Dum-E/catkin_ws/build/interbotix_moveit_interface/CMakeFiles --progress-num=13,14 "Built target interbotix_moveit_interface_generate_messages_eus"
@@ -161,9 +161,9 @@ clean: CMakeFiles/interbotix_moveit_interface_genlisp.dir/clean
 # Target rules for target CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir
 
 # All Build rule for target.
-CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/all: CMakeFiles/_interbotix_moveit_interface_generate_messages_check_deps_MoveItPlan.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/all: CMakeFiles/_interbotix_moveit_interface_generate_messages_check_deps_MoveItPlan.dir/all
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/depend
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohit/Dum-E/catkin_ws/build/interbotix_moveit_interface/CMakeFiles --progress-num=12 "Built target interbotix_moveit_interface_generate_messages_cpp"
@@ -227,11 +227,11 @@ clean: CMakeFiles/_interbotix_moveit_interface_generate_messages_check_deps_Move
 # Target rules for target CMakeFiles/interbotix_moveit_interface_generate_messages.dir
 
 # All Build rule for target.
-CMakeFiles/interbotix_moveit_interface_generate_messages.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/all
+CMakeFiles/interbotix_moveit_interface_generate_messages.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_nodejs.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/all
+CMakeFiles/interbotix_moveit_interface_generate_messages.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/all
-CMakeFiles/interbotix_moveit_interface_generate_messages.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_nodejs.dir/all
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages.dir/depend
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohit/Dum-E/catkin_ws/build/interbotix_moveit_interface/CMakeFiles --progress-num= "Built target interbotix_moveit_interface_generate_messages"
@@ -2350,9 +2350,9 @@ clean: CMakeFiles/moveit_msgs_generate_messages_cpp.dir/clean
 # Target rules for target CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir
 
 # All Build rule for target.
-CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/all: CMakeFiles/_interbotix_moveit_interface_generate_messages_check_deps_MoveItPlan.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/all: CMakeFiles/geometry_msgs_generate_messages_py.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/all: CMakeFiles/std_msgs_generate_messages_py.dir/all
+CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/all: CMakeFiles/_interbotix_moveit_interface_generate_messages_check_deps_MoveItPlan.dir/all
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/depend
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohit/Dum-E/catkin_ws/build/interbotix_moveit_interface/CMakeFiles --progress-num=17,18 "Built target interbotix_moveit_interface_generate_messages_py"
@@ -2672,9 +2672,9 @@ clean: CMakeFiles/sensor_msgs_generate_messages_py.dir/clean
 # Target rules for target CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir
 
 # All Build rule for target.
-CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/all: CMakeFiles/_interbotix_moveit_interface_generate_messages_check_deps_MoveItPlan.dir/all
-CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
 CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/all: CMakeFiles/std_msgs_generate_messages_lisp.dir/all
+CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/all: CMakeFiles/_interbotix_moveit_interface_generate_messages_check_deps_MoveItPlan.dir/all
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/depend
 	$(MAKE) -f CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/build.make CMakeFiles/interbotix_moveit_interface_generate_messages_lisp.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohit/Dum-E/catkin_ws/build/interbotix_moveit_interface/CMakeFiles --progress-num=15 "Built target interbotix_moveit_interface_generate_messages_lisp"
@@ -3218,23 +3218,33 @@ clean: CMakeFiles/tf2_msgs_generate_messages_eus.dir/clean
 # Target rules for target CMakeFiles/moveit_interface_node.dir
 
 # All Build rule for target.
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/graph_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/moveit_ros_planning_gencfg.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/graph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/octomap_msgs_generate_messages_cpp.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf_generate_messages_eus.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_cpp.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/moveit_ros_manipulation_gencfg.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_eus.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/object_recognition_msgs_generate_messages_cpp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_nodejs.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/graph_msgs_generate_messages_py.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/moveit_msgs_generate_messages_py.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/graph_msgs_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_eus.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/trajectory_msgs_generate_messages_py.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/roscpp_generate_messages_cpp.dir/all
@@ -3253,6 +3263,18 @@ CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/shape_msgs_generate_message
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/shape_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/object_recognition_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_cpp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf_generate_messages_py.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf_generate_messages_lisp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/graph_msgs_generate_messages_nodejs.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/moveit_ros_planning_gencfg.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_eus.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/graph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_cpp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_py.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_lisp.dir/all
+CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/octomap_msgs_generate_messages_cpp.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_py.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/moveit_msgs_generate_messages_cpp.dir/all
@@ -3283,28 +3305,6 @@ CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_cpp.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_eus.dir/all
 CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf2_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/interbotix_moveit_interface_generate_messages_nodejs.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/tf_generate_messages_cpp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/graph_msgs_generate_messages_py.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_generate_messages_nodejs.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/shape_msgs_generate_messages_cpp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_generate_messages_eus.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/moveit_msgs_generate_messages_py.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_generate_messages_lisp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_cpp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/geometry_msgs_generate_messages_lisp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/graph_msgs_generate_messages_eus.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/sensor_msgs_generate_messages_lisp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/std_msgs_generate_messages_cpp.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/roscpp_generate_messages_py.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/trajectory_msgs_generate_messages_eus.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/roscpp_generate_messages_eus.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/actionlib_msgs_generate_messages_eus.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_py.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/rosgraph_msgs_generate_messages_nodejs.dir/all
-CMakeFiles/moveit_interface_node.dir/all: CMakeFiles/visualization_msgs_generate_messages_lisp.dir/all
 	$(MAKE) -f CMakeFiles/moveit_interface_node.dir/build.make CMakeFiles/moveit_interface_node.dir/depend
 	$(MAKE) -f CMakeFiles/moveit_interface_node.dir/build.make CMakeFiles/moveit_interface_node.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/mohit/Dum-E/catkin_ws/build/interbotix_moveit_interface/CMakeFiles --progress-num=19,20,21 "Built target moveit_interface_node"
