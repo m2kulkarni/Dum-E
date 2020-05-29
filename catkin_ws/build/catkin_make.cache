@@ -1,0 +1,2 @@
+beginner_tutorials:interbotix_ros_arms/interbotix_descriptions:interbotix_ros_arms/interbotix_gazebo:robot_arm
+-DCATKIN_DEVEL_PREFIX=/home/mohit/gitrepo/Dum-E/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/mohit/gitrepo/Dum-E/catkin_ws/install -G Unix Makefiles

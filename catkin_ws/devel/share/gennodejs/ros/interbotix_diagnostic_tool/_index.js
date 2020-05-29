@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_diagnostic_tool/share/gennodejs/ros/interbotix_diagnostic_tool/_index.js

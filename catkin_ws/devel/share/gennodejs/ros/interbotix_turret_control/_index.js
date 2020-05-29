@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_turret_control/share/gennodejs/ros/interbotix_turret_control/_index.js

@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_diagnostic_tool/share/interbotix_diagnostic_tool/cmake/interbotix_diagnostic_toolConfig.cmake

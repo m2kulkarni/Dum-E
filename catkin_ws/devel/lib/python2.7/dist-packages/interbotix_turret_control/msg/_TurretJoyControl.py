@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_turret_control/lib/python2.7/dist-packages/interbotix_turret_control/msg/_TurretJoyControl.py

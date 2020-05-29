@@ -1,4 +1,4 @@
-prefix=/home/mohit/Dum-E/catkin_ws/install
+prefix=/home/mohit/gitrepo/Dum-E/catkin_ws/install
 
 Name: robot_arm
 Description: Description of robot_arm

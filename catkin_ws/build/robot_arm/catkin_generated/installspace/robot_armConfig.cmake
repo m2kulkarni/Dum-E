@@ -67,14 +67,14 @@ set(robot_arm_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(robot_arm_SOURCE_PREFIX /home/mohit/Dum-E/catkin_ws/src/robot_arm)
-  set(robot_arm_DEVEL_PREFIX /home/mohit/Dum-E/catkin_ws/devel/.private/robot_arm)
+  set(robot_arm_SOURCE_PREFIX /home/mohit/gitrepo/Dum-E/catkin_ws/src/robot_arm)
+  set(robot_arm_DEVEL_PREFIX /home/mohit/gitrepo/Dum-E/catkin_ws/devel)
   set(robot_arm_INSTALL_PREFIX "")
   set(robot_arm_PREFIX ${robot_arm_DEVEL_PREFIX})
 else()
   set(robot_arm_SOURCE_PREFIX "")
   set(robot_arm_DEVEL_PREFIX "")
-  set(robot_arm_INSTALL_PREFIX /home/mohit/Dum-E/catkin_ws/install)
+  set(robot_arm_INSTALL_PREFIX /home/mohit/gitrepo/Dum-E/catkin_ws/install)
   set(robot_arm_PREFIX ${robot_arm_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/mohit/Dum-E/catkin_ws/install/lib;/home/mohit/Dum-E/catkin_ws/devel/lib;/home/mohit/vslam_ws/devel/lib;/home/mohit/vslam_ws/src/openvslam/ros/devel/lib;/opt/ros/melodic/lib)
+    foreach(path /home/mohit/gitrepo/Dum-E/catkin_ws/install/lib;/home/mohit/interbotix_ws/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

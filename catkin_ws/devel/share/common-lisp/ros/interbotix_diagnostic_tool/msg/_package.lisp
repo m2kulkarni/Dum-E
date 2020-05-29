@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_diagnostic_tool/share/common-lisp/ros/interbotix_diagnostic_tool/msg/_package.lisp

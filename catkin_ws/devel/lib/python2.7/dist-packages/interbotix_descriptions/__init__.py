@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_descriptions/lib/python2.7/dist-packages/interbotix_descriptions/__init__.py

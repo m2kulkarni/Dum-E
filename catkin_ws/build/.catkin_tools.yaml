@@ -1,6 +1,0 @@
-devel_space: /home/mohit/Dum-E/catkin_ws/devel
-install: false
-install_space: /home/mohit/Dum-E/catkin_ws/install
-profile: default
-source_space: /home/mohit/Dum-E/catkin_ws/src
-workspace: /home/mohit/Dum-E/catkin_ws

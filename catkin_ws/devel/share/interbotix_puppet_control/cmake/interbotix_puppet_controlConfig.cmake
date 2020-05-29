@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_puppet_control/share/interbotix_puppet_control/cmake/interbotix_puppet_controlConfig.cmake

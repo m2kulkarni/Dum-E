@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_turret_control/share/common-lisp/ros/interbotix_turret_control/msg/TurretJoyControl.lisp

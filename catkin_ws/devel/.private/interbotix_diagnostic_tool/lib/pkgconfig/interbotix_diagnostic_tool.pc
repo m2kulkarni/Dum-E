@@ -1,8 +1,0 @@
-prefix=/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_diagnostic_tool
-
-Name: interbotix_diagnostic_tool
-Description: Description of interbotix_diagnostic_tool
-Version: 0.0.0
-Cflags: -I/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_diagnostic_tool/include
-Libs: -L${prefix}/lib 
-Requires: interbotix_sdk message_generation rosbag roscpp rospy rqt_plot sensor_msgs

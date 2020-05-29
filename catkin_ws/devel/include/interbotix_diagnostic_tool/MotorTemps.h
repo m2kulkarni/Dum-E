@@ -1,1 +1,0 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_diagnostic_tool/include/interbotix_diagnostic_tool/MotorTemps.h

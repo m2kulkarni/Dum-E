@@ -1,1 +1,8 @@
-/home/mohit/Dum-E/catkin_ws/devel/.private/beginner_tutorials/lib/pkgconfig/beginner_tutorials.pc
+prefix=/home/mohit/gitrepo/Dum-E/catkin_ws/devel
+
+Name: beginner_tutorials
+Description: Description of beginner_tutorials
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

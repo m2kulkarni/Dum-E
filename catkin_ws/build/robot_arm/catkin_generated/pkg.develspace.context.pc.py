@@ -4,5 +4,5 @@ PROJECT_PKG_CONFIG_INCLUDE_DIRS = "".split(';') if "" != "" else []
 PROJECT_CATKIN_DEPENDS = "".replace(';', ' ')
 PKG_CONFIG_LIBRARIES_WITH_PREFIX = "".split(';') if "" != "" else []
 PROJECT_NAME = "robot_arm"
-PROJECT_SPACE_DIR = "/home/mohit/Dum-E/catkin_ws/devel/.private/robot_arm"
+PROJECT_SPACE_DIR = "/home/mohit/gitrepo/Dum-E/catkin_ws/devel"
 PROJECT_VERSION = "0.0.0"

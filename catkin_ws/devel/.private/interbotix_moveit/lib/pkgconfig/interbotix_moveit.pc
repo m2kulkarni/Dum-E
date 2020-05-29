@@ -1,8 +1,0 @@
-prefix=/home/mohit/Dum-E/catkin_ws/devel/.private/interbotix_moveit
-
-Name: interbotix_moveit
-Description: Description of interbotix_moveit
-Version: 0.3.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
