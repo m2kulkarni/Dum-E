@@ -10,3 +10,6 @@
 * [3-Setting up a ROS package](https://docs.google.com/document/d/1E9Pd_2mIo0tWHOR-z1ufSWw7uVhlPdlP41zotoOFJdM/edit)
 * [4-Rviz](https://docs.google.com/document/d/19nljav33PNxe5xt18vitexJKoVpGOvILEE-_-ihDK4s/edit)
 
+
+
+On your local machine, copy all the content from catkin_ws/src/ros_arms to catkin_es/src/interbotix_ros_arms. ros_arms contains the changes commited by me. launch files and urdf files
